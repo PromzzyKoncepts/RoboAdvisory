@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import Section1 from './components/sections/Section1';
+import Section2 from './components/sections/Section2';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-slate-800 text-4xl'>Start building here</h1>
+      <Header />
+      <Section1 />
+      <Section2 />
     </>
   );
 }
