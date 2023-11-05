@@ -1,9 +1,15 @@
-import mockup from "../../assets/mockup-video.webm"
+import { useEffect } from "react";
+import mockup from "../../assets/mockup-video.webm";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Section1 = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="md:flex gap-9 w-10/12 m-auto  py-7">
-      <div className="item1 w-9/12 md:col-span-1">
+    <div className="md:flex md:flex-nowrap  md:items-start md:justify-start md:gap-9 w-10/12 m-auto  py-7">
+      <div data-aos="fade-right" className="item1 md:w-[80%] md:col-span-1">
         <h1 className="text-6xl font-bold text-left italic">
           There’s no secret to long-term wealth, but if there were it would be
           this:
@@ -25,8 +31,9 @@ const Section1 = () => {
           Get started
         </a>
       </div>
-      <div className="item2 md:col-span-2">
+      <div className="item2 mt-5 md:mt-0 md:col-span-2">
         <video
+          data-aos="fade-down"
           className="rounded-lg"
           autoPlay
           loop
@@ -40,6 +47,6 @@ const Section1 = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Section1;
