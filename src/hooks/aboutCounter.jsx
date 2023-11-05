@@ -3,14 +3,14 @@ import CounterItem from './counterItem';
 import { Google, Money, People, PhoneIphone } from '@mui/icons-material';
 
 const AboutCounter = () => {
-  useCountUp({ ref: 'Trusted Clients', end: 290, duration: 10 });
+  useCountUp({ ref: 'Trusted Clients', end: 690, duration: 10 });
   useCountUp({ ref: 'In assets managed', end: 43, duration: 10 });
-  useCountUp({ ref: 'Apple App Store', end: 92, duration: 10 });
-  useCountUp({ ref: 'Google Play Store', end: 50, duration: 10 });
+  useCountUp({ ref: 'Apple App Store', end: 4.8, duration: 10 });
+  useCountUp({ ref: 'Google Play Store', end: 4.9, duration: 10 });
 
   return (
     <div className=" ">
-      <div className="flex justify-between pt-7 ">
+      <div className="flex flex-wrap justify-between pt-7 ">
         <CounterItem
           icon={<People fontSize="large" />}
           title="Trusted Clients"
@@ -23,21 +23,21 @@ const AboutCounter = () => {
           symbol="$"
           title="In assets managed"
           counter={<span id="In assets managed" />}
-          measurement="+"
+          measurement="B"
         />
 
         <CounterItem
           icon={<PhoneIphone fontSize="large" />}
           title="Apple App Store"
           counter={<span id="Apple App Store" />}
-          measurement="%"
+          measurement="&#9733;"
         />
 
         <CounterItem
           icon={<Google fontSize="large" />}
           title="Google Play Store"
           counter={<span id="Google Play Store" />}
-          measurement="+"
+          measurement="&#9733;"
         />
       </div>
     </div>
