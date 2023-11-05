@@ -1,47 +1,34 @@
-import React, { useContext, useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import { useSelector } from "react-redux";
+import {  useState } from "react";
 
-import Badge from "@mui/material/Badge";
-import { styled } from "@mui/material/styles";
-import IconButton from "@mui/material/IconButton";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Burger, Menu, Overlay } from "./Hamburger";
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   const [isCategories, setIsCategories] = useState(false);
   const [isLearn, setIsLearn] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
   const handleCategories = () => setIsCategories((prev) => !prev);
   const handleLearn = () => setIsLearn((prev) => !prev);
+    const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
-    <div className="flex justify-between py-5 px-[7rem] items-center border-b">
-      <header>
+    <div className="flex justify-between py-3 w-10/12 m-auto items-center border-b">
+      <header className="">
         <h1>
           <a className="text-4xl" href="https://www.wealthfront.com/investing">
             Wealth<span>Vest</span>
           </a>
         </h1>
       </header>
-      <nav className="flex gap-5">
+
+      <div className="hamburger md:hidden">
+        <Burger open={open} setOpen={setOpen} />
+        <Menu open={open} setOpen={setOpen} />
+        <Overlay open={open} onClick={() => setOpen(false)} />
+      </div>
+      
+      <nav className=" hidden md:flex gap-5">
         <a className="no-underline" href="https://www.wealthfront.com/cash">
           Cash
         </a>
@@ -50,7 +37,7 @@ const Header = () => {
         </a>
 
         <div
-          className="items-center relative font-semibold cursor-pointer"
+          className=" hidden md:block items-center relative font-semibold cursor-pointer"
           onMouseEnter={handleCategories}
           onMouseLeave={handleCategories}
         >
@@ -75,7 +62,10 @@ const Header = () => {
           )}
         </div>
 
-        <a className="no-underline" href="https://www.wealthfront.com/cash">
+        <a
+          className=" hidden md:block no-underline"
+          href="https://www.wealthfront.com/cash"
+        >
           Stocks
         </a>
         <div
@@ -105,7 +95,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <nav className="flex items-center gap-5 ">
+      <nav className=" hidden md:flex items-center gap-5 ">
         <a
           href="https://www.wealthfront.com/login"
           className="no-underline rounded-lg border p-3  hover:shadow-md"
