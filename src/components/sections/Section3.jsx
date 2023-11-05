@@ -71,10 +71,12 @@ const Section3 = () => {
   };
 
   return (
-    <div className="py-9 ">
+    <div className="pt-9 pb-5 text-center ">
+          <h1 className="text-3xl font-bold">Sample Portfolio</h1>
+          <p className="mb-5">Slide to see recommendations based on your risk factor</p>
       <div className="  justify-between w-10/12   mx-auto">
         <div className="main_work_section flex-grow flex-wrap-reverse gap-4   justify-center flex md:justify-between">
-          <div className="w-[40rem] font-bold">
+          <div className="w-[35rem] font-bold">
             <Bar
               data-aos="fade-down"
               // className="w-[40rem] font-bold"
@@ -111,7 +113,7 @@ const Section3 = () => {
             />
 
             <div data-aos="fade-right">
-              <ul className="flex flex-wrap font-medium gap-2 my-4">
+              <ul className="flex flex-wrap font-medium gap-2 mt-4">
                 {Object.keys(data[rangeValue]).map((key) => {
                   const value = data[rangeValue][key];
                   if (key !== "Risk Score" && value === 0) {

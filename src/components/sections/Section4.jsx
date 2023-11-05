@@ -18,8 +18,8 @@ const Section4 = () => {
             investment in a low-cost, responsible manner for as low as FREE!
           </p>
         </div>
-        <div data-aos="fade-up" className="md:grid md:gap-5  grid-cols-5 ">
-          <div className="item col-span-2">
+        <div data-aos="fade-up" className="md:grid md:gap-5   grid-cols-5 ">
+          <div className="item  col-span-2">
             <Carousel>
               <Carousel.Item>
                 <img
@@ -44,7 +44,7 @@ const Section4 = () => {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="text-justify item2 col-span-3">
+          <div className="text-justify mt-9 md:mt-0 item2 col-span-3">
             <p className="text-amber-500">We have a way…</p>
             <h3 className=" text-slate-700 text-3xl font-semibold my-1">
               We were built for this!

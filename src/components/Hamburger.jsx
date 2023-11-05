@@ -14,7 +14,7 @@ const StyledMenu = styled.nav`
   text-align: left;
   padding: 7rem 2rem;
   position: fixed;
-  z-index: 3;
+  z-index: 3000000;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
