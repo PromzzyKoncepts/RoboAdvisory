@@ -5,14 +5,14 @@ import CreditCardIcon from "@mui/icons-material/CreditCard";
 function App() {
   return (
     <div data-aos="fade-up" className="md:h-[65vh] bg-[#18172B]">
-      <div className="w-10/12 shadow-lg py-[5rem] px-[4rem] md:translate-y-[-8rem] flex flex-col gap-5 bg-white mx-auto ">
+      <div className="w-10/12 shadow-lg md:py-[5rem] py-6 px-4 md:px-[4rem] md:translate-y-[-8rem] flex flex-col gap-5 bg-white mx-auto ">
         <div>
           <small className="text-amber-600">What we'll do</small>
           <h3 className="text-3xl my-2 font-semibold md:w-8/12">
             <span>We'll help to improve your overall finances</span> and provide
             greater peace-of-mind.
           </h3>
-          <p className="text-1xl w-10/12">
+          <p className="text-1xl md:w-10/12">
             We are dedicated to providing you with the best experience possible.
             Read below to find out why the sky's the limit when using
             roboadvisor.com.
