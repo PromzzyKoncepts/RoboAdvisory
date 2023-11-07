@@ -13,7 +13,7 @@ const StyledMenu = styled.nav`
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
   text-align: left;
-  padding: 7rem 1rem;
+  padding: 4rem 2rem;
   position: fixed;
   z-index: 3000000;
   top: 0;
@@ -21,7 +21,7 @@ const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
 
   @media (max-width: 768px) {
-    width: 65%;
+    width: 60%;
   }
 
   a {
@@ -90,7 +90,7 @@ const Menu = ({ open, setOpen }) => {
   };
   return (
     <StyledMenu open={open}>
-      <a href="/" onClick={() => setOpen(false)}>
+      <a className="p-2 bg-amber-500 rounded" href="/" onClick={() => setOpen(false)}>
         Login
       </a>
       <a href="/about" onClick={() => setOpen(false)}>

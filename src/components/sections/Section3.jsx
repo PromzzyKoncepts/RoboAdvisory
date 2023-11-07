@@ -326,7 +326,7 @@ const Section3 = () => {
                 <Close />
               </button>
               <div className=" md:w-10/12 text-left mx-auto">
-                <h2 className="text-4xl text-center font-bold mb-4">
+                <h2 className=" w-10/12 md:w-full mx-auto text-4xl text-center font-bold mb-4">
                   You're{" "}
                   <span className="text-slate-600">
                     {recommendations[rangeValue].title}
