@@ -141,87 +141,68 @@ export const data = [
 export default [
   {
     id: 0,
-    text: "No recommendation for this range.",
+    title: "Defensive",
+    text: "You want stability, which means you want to protect yourself from volatility. You’re ok with a potentially lower but more predictable range of returns..",
+    text2: "This mix of investments is primarily bonds. Bonds tend to be less volatile and less risky than stocks, and they can offer more stable and consistent returns. Plus, bonds tend to perform well when stocks are declining.",
   },
   {
     id: 1,
-    text: "Recommendation 1: Invest in Tech Stocks.",
+    title: "Defensive",
+    text: "You want stability, which means you want to protect yourself from volatility. You’re ok with a potentially lower but more predictable range of returns..",
+    text2: "This mix of investments is primarily bonds. Bonds tend to be less volatile and less risky than stocks, and they can offer more stable and consistent returns. Plus, bonds tend to perform well when stocks are declining.",
   },
   {
     id: 2,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Moderate",
+    text: "You want the ups and downs of your portfolio’s value to feel reasonably predictable.",
+    text2: "Exposure to U.S. stocks provides potential for long-term growth, while municipal bonds can balance out some of the associated risk with a little stability. Bonds are a good way to protect against loss while generating interest.",
   },
   {
     id: 3,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Cautious",
+    text: "You want stability but with a portfolio that is slightly exposed to other investment options to try and provide a bit more growth potential. You can handle some of the bumps, but do not really like that feeling when the market drops.",
+    text2: "An investment mix for you is a roughly balanced portfolio of stocks (including a small amount in foreign developed and emerging markets) and bonds, to try to provide growth potential with steady income.",
   },
   {
     id: 4,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Cautious",
+    text: "You want stability but with a portfolio that is slightly exposed to other investment options to try and provide a bit more growth potential. You can handle some of the bumps, but do not really like that feeling when the market drops.",
+    text2: "An investment mix for you is a roughly balanced portfolio of stocks (including a small amount in foreign developed and emerging markets) and bonds, to try to provide growth potential with steady income.",
   },
   {
     id: 5,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Moderate",
+    text: "You want the ups and downs of your portfolio’s value to feel reasonably predictable.",
+    text2: "Exposure to U.S. stocks provides potential for long-term growth, while municipal bonds can balance out some of the associated risk with a little stability. Bonds are a good way to protect against loss while generating interest.",
   },
   {
     id: 6,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Moderate",
+    text: "You want the ups and downs of your portfolio’s value to feel reasonably predictable.",
+    text2: "Exposure to U.S. stocks provides potential for long-term growth, while municipal bonds can balance out some of the associated risk with a little stability. Bonds are a good way to protect against loss while generating interest.",
   },
   {
     id: 7,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Adventurous",
+    text: "You want to focus on growing your long-term wealth, while keeping some firm guardrails in place.",
+    text2: "Exposure to U.S. stocks provides potential for long-term growth, while municipal bonds can balance out some of the associated risk with a little stability. Bonds are a good way to protect against loss while generating interest.",
   },
   {
     id: 8,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Very Adventurous",
+    text: "You want to take on more risk for a potential higher reward, and you’re ok with the volatility that comes with it.",
+    text2: "An ideal mix for you is heavily weighted towards Stocks from US, foreign developed, and emerging markets, with only a small allocation to bonds.",
   },
   {
     id: 9,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "Very Adventurous",
+    text: "You want to take on more risk for a potential higher reward, and you’re ok with the volatility that comes with it.",
+    text2: "An ideal mix for you is heavily weighted towards Stocks from US, foreign developed, and emerging markets, with only a small allocation to bonds.",
   },
   {
     id: 10,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
+    title: "A Maximiser",
+    text: "You want a portfolio that is attempting to provide maximum growth potential which can come with significantly more volatility (for a diversified portfolio, that is.",
+    text2: "While past performance does not necessarily guarantee future performance, historically investing mostly in U.S., emerging, and foreign stocks offered significant returns over the long run. Given this portfolio provides minimal exposure to bonds you could be in for a wild ride during down markets.",
   },
-  {
-    id: 11,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 12,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 13,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 14,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 15,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 16,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 17,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 18,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 19,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  {
-    id: 20,
-    text: "Recommendation 2: Diversify your portfolio with Bonds.",
-  },
-  // Add more recommendations for all 20 range points.
 ];

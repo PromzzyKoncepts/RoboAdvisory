@@ -1,21 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
 import CreditCardIcon from "@mui/icons-material/CreditCard";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 
 
 function App() {
   return (
     <div data-aos="fade-up" className="md:h-[65vh] bg-[#18172B]">
-      <div className="w-10/12 shadow-lg py-[5rem] px-[4rem] md:translate-y-[-8rem] flex flex-col gap-5 bg-white mx-auto ">
+      <div className="w-10/12 shadow-lg md:py-[5rem] py-6  md:px-[4rem] px-4 md:translate-y-[-8rem] flex flex-col gap-5 bg-white mx-auto ">
         <div>
-          <small className="text-amber-600">What we'll do</small>
+          <small className="text-amber-900 font-bold">What we'll do</small>
           <h3 className="text-3xl my-2 font-semibold md:w-8/12">
             <span>We'll help to improve your overall finances</span> and provide
             greater peace-of-mind.
           </h3>
-          <p className="text-1xl w-10/12">
+          <p className="text-1xl md:w-10/12">
             We are dedicated to providing you with the best experience possible.
             Read below to find out why the sky's the limit when using
-            roboadvisor.com.
+            wealthVest.com.
           </p>
         </div>
         <div data-aos="fade-up" className="md:flex text-center md:gap-5">
@@ -33,7 +35,7 @@ function App() {
 
           <div className="group  relative">
             <div className="group-hover:bg-amber-500 shadow-md w-[4.3rem] m-auto flex justify-center p-4 rounded-[100%]">
-              <CreditCardIcon className="group-hover:text-white " />
+              <AttachMoneyIcon className="group-hover:text-white " />
             </div>
             <h4 className="text-2xl font-medium">Low-cost Investing</h4>
             <p>
@@ -45,7 +47,7 @@ function App() {
 
           <div className="group  relative">
             <div className="group-hover:bg-amber-500 shadow-md w-[4.3rem] m-auto flex justify-center p-4 rounded-[100%]">
-              <CreditCardIcon className="group-hover:text-white " />
+              <AccountBalanceWalletIcon className="group-hover:text-white " />
             </div>
             <h4 className="text-2xl font-medium">Provide Liquidity</h4>
             <p>

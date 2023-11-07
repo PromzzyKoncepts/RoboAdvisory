@@ -10,7 +10,7 @@ const Section1 = () => {
   return (
     <div className="md:flex md:flex-nowrap  md:items-start md:justify-start md:gap-9 w-10/12  m-auto  pb-7 pt-[6rem]">
       <div data-aos="fade-right" className="item1 md:w-[80%] md:col-span-1">
-        <h1 className="text-6xl font-bold text-left italic">
+        <h1 className="md:text-6xl text-4xl font-bold text-left italic">
           There’s no secret to long-term wealth, but if there were it would be
           this:
           <span className="text-slate-600 font-bold">

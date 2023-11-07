@@ -6,13 +6,13 @@ const Section4 = () => {
     <div className="bg-slate-50  ">
       <div className="w-10/12 flex flex-wrap py-10 gap-5  flex-col m-auto">
         <div>
-          <p className="text-amber-500">
+          <p className="text-amber-900 font-semibold">
             So if you are thinking about making life more simple…
           </p>
-          <h3 className="text-slate-700 text-4xl font-semibold my-1">
+          <h3 className="text-slate-700 md:text-4xl text-3xl font-semibold my-1">
             We were thinking the exact same thing
           </h3>
-          <p className="text-2xl">
+          <p className="text-[1.2rem]">
             Set financial goals, create a formal budget, inventory all your
             assets, review your investment strategy, monitor your progress, and
             investment in a low-cost, responsible manner for as low as FREE!
@@ -45,11 +45,11 @@ const Section4 = () => {
             </Carousel>
           </div>
           <div className="text-justify mt-9 md:mt-0 item2 col-span-3">
-            <p className="text-amber-500">We have a way…</p>
+            <p className="text-amber-900 font-semibold">We have a way…</p>
             <h3 className=" text-slate-700 text-3xl font-semibold my-1">
               We were built for this!
             </h3>
-            <p className="text-2xl mb-4">
+            <p className="text-[1.2rem] mb-4">
               Our solution was built to manage your world of finance as well as
               the world you dare to become in a single environment, with a
               single password and around-the-clock access…
