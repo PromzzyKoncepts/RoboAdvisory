@@ -229,7 +229,7 @@ const Section3 = () => {
         Slide to see recommendations based on your risk factor
       </p>
       <div className="  justify-between w-10/12  mx-auto">
-        <div className="main_work_section flex-grow flex-wrap-reverse gap-4   justify-center flex md:justify-between">
+        <div className="main_work_section flex-grow flex-wrap gap-4   justify-center flex md:justify-between">
           <div className="w-[35rem] font-bold">
             <Bar
               data-aos="fade-down"
