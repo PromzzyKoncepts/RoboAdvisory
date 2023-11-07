@@ -318,14 +318,14 @@ const Section3 = () => {
               className="fixed inset-0 bg-black opacity-50 cursor-pointer"
               onClick={closePopup}
             ></div>
-            <div className="fixed bg-white overflow-y-scroll md:p-8 py-5 px-2 md:w-9/12 w-10/12 h-[80vh] rounded-lg shadow-lg z-50">
+            <div className="fixed bg-white overflow-y-scroll p-7  md:w-9/12 w-10/12 h-[80vh] rounded-lg shadow-lg z-50">
               <button
                 onClick={closePopup}
                 className="float-right bg-amber-500 text-white px-2 py-2 rounded hover:bg-amber-700"
               >
                 <Close />
               </button>
-              <div className=" w-10/12 text-left mx-auto">
+              <div className=" md:w-10/12 text-left mx-auto">
                 <h2 className="text-4xl text-center font-bold mb-4">
                   You're{" "}
                   <span className="text-slate-600">
