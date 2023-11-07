@@ -6,17 +6,14 @@ const Footer = () => {
   return (
     <div className="mt-5 bg-[#18172B]">
       <div className="w-10/12 m-auto py-5">
-        <div className="flex flex-wrap pb-5 justify-between  gap-5 text-slate-200 border-b border-slate-700">
+        <div className="flex flex-wrap pb-5 justify-between  gap-4 text-slate-200 border-b border-slate-700">
           <div className="" id="contact">
             <div className="">
               <div>
                 <h1 className="text-5xl font-bold pb-3">WealthVest</h1>
-                <p>aphia.store</p>
+                <small>wealthVest.com</small>
               </div>
 
-              <div>
-                <h5>Follow us on:</h5>
-              </div>
             </div>
             <div className="">
               <p>All Rights Reserved &copy; WealthVest Inc</p>
@@ -35,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap-reverse  flex-grow justify-between">
+          <div className="flex flex-wrap-reverse gap-4 flex-grow justify-between">
             <div className="">
               <h3 className="text-2xl">Investing</h3>
               <a
@@ -245,22 +242,22 @@ const Footer = () => {
             <li data-aos="fade-up">
               <small>
                 Nerdwallet and Investopedia (the “Endorsers”) receive cash
-                compensation for referring potential clients to Wealthfront
-                Advisers, LLC (“Wealthfront Advisers”) via advertisements placed
-                on their respective websites. The Endorsers and Wealthfront
+                compensation for referring potential clients to WealthVest
+                Advisers, LLC (“WealthVest Advisers”) via advertisements placed
+                on their respective websites. The Endorsers and WealthVest
                 Advisers are not associated with one another and have no formal
                 relationship outside of this arrangement. Nerdwallet’s opinions
                 are their own. Their ratings are determined by their editorial
                 team. The scoring formula for online brokers and robo-advisors
                 takes into account over 15 factors, including account fees and
                 minimums, investment choices, customer support and mobile app
-                capabilities. Nerdwallet ranking as of January 2022. Wealthfront
+                capabilities. Nerdwallet ranking as of January 2022. WealthVest
                 provides cash compensation in connection with obtaining this
                 ranking. Investopedia designed a system that rates robo-advisors
                 based on nine key categories and 49 variables. Each category
                 covers the critical elements users need to thoroughly evaluate a
                 robo-advisor. Learn more about their methodology and review
-                process. Investopedia ranking as of January 2022. Wealthfront
+                process. Investopedia ranking as of January 2022. WealthVest
                 provided cash compensation in connection with obtaining this
                 ranking. © 2017-2022 and TM, NerdWallet, Inc. All Rights
                 Reserved.
@@ -280,18 +277,18 @@ const Footer = () => {
           <small>
             By using this website, you understand the information being
             presented is provided for informational purposes only and agree to
-            our Terms of Use and Privacy Policy. Wealthfront Advisers relies on
+            our Terms of Use and Privacy Policy. WealthVest Advisers relies on
             information from various sources believed to be reliable, including
             clients and third parties, but cannot guarantee the accuracy and
             completeness of that information. Nothing in this communication
             should be construed as an offer, recommendation, or solicitation to
-            buy or sell any security.Additionally, Wealthfront Advisers or its
+            buy or sell any security.Additionally, WealthVest Advisers or its
             affiliates do not provide tax advice and investors are encouraged to
             consult with their personal tax advisors. We’ve partnered with Green
             Dot Bank, Member FDIC, to bring you checking features. Checking
             features for the Cash Account are subject to identity verification
             by Green Dot Bank. Debit Card is optional and must be requested.
-            Wealthfront Cash Account Visa® Debit Card is issued by Green Dot
+            WealthVest Cash Account Visa® Debit Card is issued by Green Dot
             Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. Visa
             is a registered trademark of Visa International Service Association.
             Green Dot Bank operates under the following registered trade names:
@@ -299,26 +296,26 @@ const Footer = () => {
             registered trade names are used by, and refer to, a single
             FDIC-insured bank, Green Dot Bank. Deposits under any of these trade
             names are deposits with Green Dot Bank and are aggregated for
-            deposit insurance coverage. Wealthfront products and services are
+            deposit insurance coverage. WealthVest products and services are
             not provided by Green Dot Bank. Green Dot is a registered trademark
             of Green Dot Corporation. ©2023 Green Dot Corporation. All rights
-            reserved. Cash Account is offered by Wealthfront Brokerage LLC
-            (“Wealthfront Brokerage”), a member of FINRA / SIPC. Neither
-            Wealthfront Brokerage nor any of its affiliates are a bank, and Cash
+            reserved. Cash Account is offered by WealthVest Brokerage LLC
+            (“WealthVest Brokerage”), a member of FINRA / SIPC. Neither
+            WealthVest Brokerage nor any of its affiliates are a bank, and Cash
             Account is not a checking or savings account. We convey funds to
             institutions accepting and maintaining deposits. Investment
-            management and advisory services are provided by Wealthfront
-            Advisers LLC (“Wealthfront Advisers”), an SEC registered investment
-            adviser, and financial planning tools are provided by Wealthfront
-            Software LLC (“Wealthfront”).
+            management and advisory services are provided by WealthVest
+            Advisers LLC (“WealthVest Advisers”), an SEC registered investment
+            adviser, and financial planning tools are provided by WealthVest
+            Software LLC (“WealthVest”).
           </small>
           <small data-aos="fade-up">
-            The Wealthfront 529 College Savings Plan is administered by the
+            The WealthVest 529 College Savings Plan is administered by the
             Board of Trustees of the College Savings Plans of Nevada, chaired by
             the Nevada State Treasurer. Ascensus Broker Dealer Services, Inc.
-            serves as the Program Manager. Wealthfront Advisers LLC, an
+            serves as the Program Manager. WealthVest Advisers LLC, an
             SEC-registered investment adviser, serves as the investment adviser
-            to the Plan. Wealthfront Brokerage LLC serves as the distributor and
+            to the Plan. WealthVest Brokerage LLC serves as the distributor and
             the underwriter of the Plan. Before you invest, consider whether
             your or the beneficiary’s home state offers any state tax or other
             state benefits such as financial aid, scholarship funds, and
@@ -327,7 +324,7 @@ const Footer = () => {
             Tax-Loss Harvesting strategy to reduce the tax liability of the
             client will depend on the client’s entire tax and investment
             profile, including purchases and dispositions in a client’s (or
-            client’s spouse’s) accounts outside of Wealthfront Advisers and type
+            client’s spouse’s) accounts outside of WealthVest Advisers and type
             of investments (e.g., taxable or nontaxable) or holding period
             (e.g., short- term or long-term).Tax loss harvesting may generate a
             higher number of trades due to attempts to capture losses.
@@ -356,13 +353,13 @@ const Footer = () => {
             and probability projections are provided for informational and
             illustrative purposes, and may not reflect actual future
             performance. Please see our Full Disclosure for important details.
-            Wealthfront Advisers, Wealthfront Brokerage and Wealthfront Software
-            are wholly owned subsidiaries of Wealthfront Corporation.
+            WealthVest Advisers, WealthVest Brokerage and WealthVest Software
+            are wholly owned subsidiaries of WealthVest Corporation.
           </small>
           <br />
           <br />
           <small>
-            © 2023 Wealthfront Corporation. All rights reserved.
+            © 2023 WealthVest Corporation. All rights reserved.
           </small>
         </div>
       </div>
