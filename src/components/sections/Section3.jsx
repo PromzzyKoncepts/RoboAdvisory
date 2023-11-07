@@ -163,7 +163,6 @@ const Section3 = () => {
   useEffect(() => {
     axios.get("https://risk-score.onrender.com/api").then((res) => {
       setScore(res.data.data);
-      console.log(res.data.data);
     }, []);
   });
 
