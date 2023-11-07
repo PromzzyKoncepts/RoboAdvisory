@@ -15,13 +15,13 @@ const Header = () => {
   return (
     <div className="w-full z-[3000]  fixed bg-white">
       <div className="flex justify-between py-3 w-10/12 m-auto items-center border-b">
-        <header className="">
+        <header className="font-bold">
           <h1>
             <a
               className="text-4xl"
               href="https://www.wealthfront.com/investing"
             >
-              Wealth<span>Vest</span>
+              Wealth<span className="">Vest</span>
             </a>
           </h1>
         </header>
