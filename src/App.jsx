@@ -23,8 +23,8 @@ useEffect(() => {
       <Section2 />
       <Section2b />
       <Section3 />
-      <Section4 />
       <Section5 />
+      <Section4 />
       <Footer />
     </>
   );
