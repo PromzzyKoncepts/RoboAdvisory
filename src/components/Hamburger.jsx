@@ -90,10 +90,14 @@ const Menu = ({ open, setOpen }) => {
   };
   return (
     <StyledMenu open={open}>
-      <a className="p-2 bg-amber-500 rounded" href="/" onClick={() => setOpen(false)}>
+      <a href="/" onClick={() => setOpen(false)}>
         Login
       </a>
-      <a href="/about" onClick={() => setOpen(false)}>
+      <a
+        className="p-2 bg-amber-500 rounded"
+        href="/about"
+        onClick={() => setOpen(false)}
+      >
         Get Started
       </a>
       <a href="/about#section_people" onClick={() => setOpen(false)}>
@@ -127,7 +131,7 @@ const Menu = ({ open, setOpen }) => {
 
       <div className="relative cat" onClick={toggleDropdown}>
         <div className="cursor-pointer">
-          Learn Categories <ArrowDropDown />
+          Learn <ArrowDropDown />
         </div>
         {isDropdownOpen && (
           <section className=" bg-[#7c542f1c] mt-2 rounded flex flex-col pt-4 w-full">

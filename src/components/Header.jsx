@@ -48,20 +48,16 @@ const Header = () => {
             Automated Investing
             <ArrowDropDownIcon />
             {isCategories && (
-              <section className=" z-[10000] absolute bg-[#333237aa] px-3 py-3 items-center rounded">
-                <div className="mb-3">
-                  <a
-                    className="bg-amber-500 hover:bg-[#FF8D3A] p-2 no-underline rounded text-white"
-                    href="login"
-                  >
-                    Login
-                  </a>
-                </div>
-                <div>
-                  <a className="text-white no-underline" href="/register">
-                    SignUp
-                  </a>
-                </div>
+              <section className=" z-[10000] absolute text-slate-50 bg-[#333237] px-3 flex gap-2 flex-col w-[15rem] py-3 items-left rounded">
+                <a onClick={() => setOpen(false)} href="/fashion/male">
+                  Socially Responsible (SRI)
+                </a>
+                <a onClick={() => setOpen(false)} href="/fashion/female">
+                  Retirement
+                </a>
+                <a onClick={() => setOpen(false)} href="/electronics">
+                  College(529s)
+                </a>
               </section>
             )}
           </div>
@@ -80,18 +76,23 @@ const Header = () => {
             Learn
             <ArrowDropDownIcon />
             {isLearn && (
-              <section className=" z-[10000] absolute bg-[#333237aa] px-3 py-3 items-center rounded">
-                <div className="mb-3">
-                  <a
-                    className="bg-amber-500 hover:bg-[#FF8D3A] p-2 no-underline rounded text-white"
-                    href="login"
-                  >
-                    Login
+              <section className=" z-[10000] absolute bg-[#333237] px-3 py-3 items-center rounded">
+                <div className="mb-3 w-[12rem] flex flex-col gap-2 text-slate-50">
+                  <a onClick={() => setOpen(false)} href="/fashion/male">
+                    Help Centers
                   </a>
-                </div>
-                <div>
-                  <a className="text-white no-underline" href="/register">
-                    SignUp
+                  <a onClick={() => setOpen(false)} href="/fashion/female">
+                    Pricing
+                  </a>
+                  <a onClick={() => setOpen(false)} href="/accessories">
+                    Tax-loss Harvesting
+                  </a>
+                  <a onClick={() => setOpen(false)} href="/electronics">
+                    Historical Performance
+                  </a>
+
+                  <a onClick={() => setOpen(false)} href="/others">
+                    Reviews
                   </a>
                 </div>
               </section>
