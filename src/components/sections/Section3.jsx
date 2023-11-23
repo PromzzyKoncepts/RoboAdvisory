@@ -24,8 +24,8 @@ const Section3 = () => {
       case "nigerian_stocks":
         return (
           <>
-            To give you exposure to US stocks, we suggest Vanguard Total Stock
-            Market ETF (VTI) and Schwab US Broad Market ETF (SCHB) in our
+            To give you exposure to Nigerian stocks, we suggest Vanguard Total Stock
+            Market ETF (VTI) and Schwab Nigerian Broad Market ETF (SCHB) in our
             Classic portfolios or iShares ESG Aware MSCI USA ETF (ESGU) in our
             SRI portfolios.
           </>
@@ -35,15 +35,15 @@ const Section3 = () => {
           <>
             We suggest funds like Vanguard FTSE Developed Markets ETF (VEA) and
             Schwab International Equity ETF (SCHF) to help provide
-            diversification from US stocks, since they react differently to
-            economic situations than U.S. stocks do.
+            diversification from Nigerian stocks, since they react differently to
+            economic situations than Nigeria. stocks do.
           </>
         );
       case "tech_stocks":
         return (
           <>
             We suggest funds like Vanguard S&P National AMT-Free Muni (VTEB) and
-            State Street Barclays Capital Muni (TFI). Issued by U.S. state and
+            State Street Barclays Capital Muni (TFI). Issued by Nigeria. state and
             local governments, these bonds are exempt from federal income taxes.
             They provide investors in high tax brackets a tax-efficient way to
             obtain income, low volatility, and diversification.
@@ -53,7 +53,7 @@ const Section3 = () => {
         return (
           <>
             We suggest funds like Vanguard Dividend Appreciation (VIG) and
-            Schwab Dow Jones U.S. Dividend 100 Index (SCHD). U.S. stocks with a
+            Schwab Dow Jones Nigeria. Dividend 100 Index (SCHD). Nigeria. stocks with a
             history of increasing their dividend payouts over time tend to be
             large-cap well-run companies in less cyclical industries and thus
             less volatile.
@@ -63,7 +63,7 @@ const Section3 = () => {
         return (
           <>
             We suggest funds like Vanguard Dividend Appreciation (VIG) and
-            Schwab Dow Jones U.S. Dividend 100 Index (SCHD). U.S. stocks with a
+            Schwab Dow Jones Nigerian. Dividend 100 Index (SCHD). Nigeria. stocks with a
             history of increasing their dividend payouts over time tend to be
             large-cap well-run companies in less cyclical industries and thus
             less volatile.
@@ -73,7 +73,7 @@ const Section3 = () => {
         return (
           <>
             We suggest funds like Vanguard Dividend Appreciation (VIG) and
-            Schwab Dow Jones U.S. Dividend 100 Index (SCHD). U.S. stocks with a
+            Schwab Dow Jones Nigeria. Dividend 100 Index (SCHD). Nigeria. stocks with a
             history of increasing their dividend payouts over time tend to be
             large-cap well-run companies in less cyclical industries and thus
             less volatile.
@@ -83,7 +83,7 @@ const Section3 = () => {
         return (
           <>
             We suggest funds like Vanguard Dividend Appreciation (VIG) and
-            Schwab Dow Jones U.S. Dividend 100 Index (SCHD). U.S. stocks with a
+            Schwab Dow Jones Nigeria. Dividend 100 Index (SCHD). Nigeria. stocks with a
             history of increasing their dividend payouts over time tend to be
             large-cap well-run companies in less cyclical industries and thus
             less volatile.
@@ -163,7 +163,6 @@ const Section3 = () => {
   useEffect(() => {
     axios.get("https://risk-score.onrender.com/api").then((res) => {
       setScore(res.data.data);
-      console.log(res.data.data);
     }, []);
   });
 
